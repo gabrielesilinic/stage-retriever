@@ -2,6 +2,10 @@
 
 Stage Retriever is a way for you to share multiple screens at once to any meeting app, this way you can focus on what you are presenting and you will not have to bring each window to the screen you initially choose to share.
 
+<p align="center">
+  <img width="300" alt="Stage Retriever Logo" src="./resources/stage-retriever.svg"/>
+</p>
+
 Stage Retriever runs thanks to Electron so theoretically supports Linux, Windows and maybe MacOS.
 
 Note: Stage Retriever is in it's early stages (no pun intended) right now and has been tested on windows only, it should work on Linux, I will test on Ubuntu specifically it as soon as I can, MacOS will not be officially supported, build it yourself and see if it runs or choose a better platform, one that is at least easy to virtualize, otherwise you can donate a Mac, I don't mind.
