@@ -6,18 +6,25 @@ Stage Retriever is a way for you to share multiple screens at once to any meetin
   <img width="300" alt="Stage Retriever Logo" src="./resources/stage-retriever.svg"/>
 </p>
 
-Stage Retriever runs thanks to Electron so theoretically supports Linux, Windows and maybe MacOS.
-
-Note: Stage Retriever is in it's early stages (no pun intended) right now and has been tested on windows only, it should work on Linux, I will test on Ubuntu specifically it as soon as I can, MacOS will not be officially supported, build it yourself and see if it runs or choose a better platform, one that is at least easy to virtualize, otherwise you can donate a Mac, I don't mind.
+Stage Retriever runs thanks to Electron, despite this I unfortunately encountered limitations when it comes to recording all screens at the same time on platforms other than Windows, so Windows will be for now the only one that is officially supported for now, but you are free to create an issue to add support for your favorite operating system.
 
 # Usage
 - If possible, designate a virtual desktop for Stage Retriever and your favorite meeting app, they must be in the same one.
 - Open Stage Retriever
 - Make Stage Retriever full screen, possibly by pressing F11 to get the full resolution and hide the window bar
-- share the Stage Retriever window from your meeting app, if window sharing unavailable remember that Stage Retriever will keep working as long as you do not reduce it to icon.
+- share the Stage Retriever window (using precisely window sharing functionality) from your meeting app, if window sharing or virtual desktops are unavailable remember that Stage Retriever will keep working as long as you do not reduce it to icon, though depending on the case you may have to sacrifice a screen.
 
 Stage Retriever will now follow your mouse and show the screen its on
 
+## Known issues
+- it Won't work with Microsoft Edge across virtual desktops likely due to optimisations implemented by Microsoft we cannot turn off.
+
+## Stage retriever is known to work with
+- Google Chrome (and any web app running inside it)
+- Mozilla Firefox (and any web app running inside it)
+- Microsoft Teams
+
+anything else should work as well, I just don't know if it does.
 
 ## Recommended IDE Setup
 
@@ -42,12 +49,6 @@ $ npm run dev
 ### Build
 
 ```bash
-# For windows (Tested, works just fine)
+# For windows
 $ npm run build:win
-
-# For macOS (maybe works, dunno)
-$ npm run build:mac
-
-# For Linux (needs testing)
-$ npm run build:linux
 ```
