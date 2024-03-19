@@ -6,7 +6,7 @@ Stage Retriever is a way for you to share multiple screens at once to any meetin
   <img width="300" alt="Stage Retriever Logo" src="./resources/stage-retriever.svg"/>
 </p>
 
-Stage Retriever runs thanks to Electron, despite this I unfortunately encountered limitations when it comes to recording all screens at the same time on platforms other than Windows, so Windows will be for now the only one that is officially supported for now, but you are free to create an issue to add support for your favorite operating system.
+Stage Retriever runs thanks to Electron, despite this I unfortunately encountered limitations when it comes to recording all screens at the same time on platforms other than Windows, so Windows will be for now the only one that is officially supported for now, but you are free to create an issue to add support for your favorite operating system for the currently default recording mode (an experimental transparent window mode may come).
 
 # Usage
 - If possible, designate a virtual desktop for Stage Retriever and your favorite meeting app, they must be in the same one.
